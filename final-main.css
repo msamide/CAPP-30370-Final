@@ -1,92 +1,61 @@
 @media only screen and (max-width: 699px) {
-#navbox1 {border-style: solid; border-color: black; width: 96%; 
+ #navbox1 {border-style: solid; border-color: black; width: 96%; 
+ float:left; margin-left: 2%; text-align: center; background-color: 
+ #FF0000; overflow:hidden;}
 
-float:left; margin-left: 2%; text-align: center; background-color: 
-
-#FF0000; overflow:hidden;}
-
-#navbox2 {border-style: solid; border-color: black; width: 96%; 
-
-float:left; text-align: center; margin-left:2%; background-color: 
-
-#FF3300; overflow:hidden;}
-
-#navbox3 {border-style: solid; border-color: black; width: 96%; 
-
-float:left; text-align: center;margin-left:2%; margin-right: 2%; 
-
-background-color: #FF6600; overflow:hidden;}
-
+ #navbox2 {border-style: solid; border-color: black; width: 96%; 
+ float:left; text-align: center; margin-left:2%; background-color: 
+ #FF3300; overflow:hidden;}
+ 
+ #navbox3 {border-style: solid; border-color: black; width: 96%; 
+ float:left; text-align: center;margin-left:2%; margin-right: 2%; 
+ background-color: #FF6600; overflow:hidden;}
 }
 
 @media only screen and (min-width: 700px) {
-#navbox1 {border-style: solid; border-color: black; width: 60%; 
+ #navbox1 {border-style: solid; border-color: black; width: 60%; 
+ float:left; margin-left: 2%; text-align: center; background-color: 
+ #FF0000; overflow:hidden;}
 
-float:left; margin-left: 2%; text-align: center; background-color: 
+ #navbox2 {border-style: solid; border-color: black; width: 60%; 
+ float:left; text-align: center; margin-left: 20%; background-color: 
+ #FF3300; overflow:hidden;}
 
-#FF0000; overflow:hidden;}
-
-#navbox2 {border-style: solid; border-color: black; width: 60%; 
-
-float:left; text-align: center; margin-left: 20%; background-color: 
-
-#FF3300; overflow:hidden;}
-
-#navbox3 {border-style: solid; border-color: black; width: 60%; 
-
-float:left; text-align: center; margin-left: 38%; margin-right: 2%; 
-
-background-color: #FF6600; overflow:hidden;}
-
+ #navbox3 {border-style: solid; border-color: black; width: 60%; 
+ float:left; text-align: center; margin-left: 38%; margin-right: 2%; 
+ background-color: #FF6600; overflow:hidden;}
 }
 
 @media only screen and (min-width: 1000px) {
-#navbox1 {border-style: solid; border-color: black; width: 31%; 
-
-float:left; margin-left: 2%; text-align: center; background-color: 
-
-#FF0000; overflow:hidden;}
-
-#navbox2 {border-style: solid; border-color: black; width: 31%; 
-
-float:left; text-align: center; margin-left: 0%; background-color: 
-
-#FF3300; overflow:hidden;}
-
-#navbox3 {border-style: solid; border-color: black; width: 31%; 
-
-float:left; text-align: center; margin-right: 2%; margin-left: 0%; 
-
-background-color: #FF6600; overflow:hidden;}
-
+ #navbox1 {border-style: solid; border-color: black; width: 31%; 
+ float:left; margin-left: 2%; text-align: center; background-color: 
+ #FF0000; overflow:hidden;}
+ 
+ #navbox2 {border-style: solid; border-color: black; width: 31%; 
+ float:left; text-align: center; margin-left: 0%; background-color: 
+ #FF3300; overflow:hidden;}
+ 
+ #navbox3 {border-style: solid; border-color: black; width: 31%; 
+ float:left; text-align: center; margin-right: 2%; margin-left: 0%; 
+ background-color: #FF6600; overflow:hidden;}
 
 @-webkit-keyframes move {
-50% {-webkit-transform: translate(800px, 0px);}
-}
+50% {-webkit-transform: translate(800px, 0px);}}
 
-.hurdle {
--webkit-animation:
-move 4s linear infinite alternate;
-}
-
+.hurdle {-webkit-animation:move 4s linear infinite alternate;}
 }
 
 h1 {text-align: center;}
 
 .head{background-color: #FFCC33;}
 
-main {background-image:url
-
-("http://www.i2clipart.com/cliparts/8/c/7/6/clipart-
-
-hurdling_silhouette-8c76.png");
+main {background-image:url("http://www.i2clipart.com/cliparts/8/c/7/6/clipart-hurdling_silhouette-8c76.png");
 background-color: #66CCCC;
 }
 
 #navbox1text:hover, #navbox2text:hover, #navbox3text:hover {
 color: yellow;
 }
-
 
 img {max-width: 100%}
 
