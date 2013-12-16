@@ -1,0 +1,89 @@
+@media only screen and (max-width: 699px) {
+#navbox1 {border-style: solid; border-color: black; width: 96%; float:left; 
+
+margin-left: 2%; text-align: center; background-color: #FF0000; 
+
+overflow:hidden;}
+
+#navbox2 {border-style: solid; border-color: black; width: 96%; float:left; 
+
+text-align: center; margin-left:2%; background-color: #FF3300; 
+
+overflow:hidden;}
+
+#navbox3 {border-style: solid; border-color: black; width: 96%; float:left; 
+
+text-align: center;margin-left:2%; margin-right: 2%; background-color: 
+
+#FF6600; overflow:hidden;}
+
+}
+
+@media only screen and (min-width: 700px) {
+#navbox1 {border-style: solid; border-color: black; width: 60%; float:left; 
+
+margin-left: 2%; text-align: center; background-color: #FF0000; 
+
+overflow:hidden;}
+
+#navbox2 {border-style: solid; border-color: black; width: 60%; float:left; 
+
+text-align: center; margin-left: 20%; background-color: #FF3300; 
+
+overflow:hidden;}
+
+#navbox3 {border-style: solid; border-color: black; width: 60%; float:left; 
+
+text-align: center; margin-left: 38%; margin-right: 2%; background-color: 
+
+#FF6600; overflow:hidden;}
+
+}
+
+@media only screen and (min-width: 1000px) {
+#navbox1 {border-style: solid; border-color: black; width: 31%; float:left; 
+
+margin-left: 2%; text-align: center; background-color: #FF0000; 
+
+overflow:hidden;}
+
+#navbox2 {border-style: solid; border-color: black; width: 31%; float:left; 
+
+text-align: center; margin-left: 0%; background-color: #FF3300; 
+
+overflow:hidden;}
+
+#navbox3 {border-style: solid; border-color: black; width: 31%; float:left; 
+
+text-align: center; margin-right: 2%; margin-left: 0%; background-color: 
+
+#FF6600; overflow:hidden;}
+
+.first {width:31%; border-right: 1px solid black; margin-left: 
+
+2%; display:block; float:left; }
+
+.second {width:31%; border-right: 1px solid black; display:block; 
+
+float:left;}
+
+.third {width:31%; margin-right:2%; display:block; float:left;}
+
+footer {border-top: 1px solid gray;}
+
+}
+
+h1 {text-align: center}
+
+h2 {margin-left:2%}
+
+h3 {margin-left:2%}
+
+p {margin-left:2%}
+
+footer {border-top: 1px solid gray;}
+
+
+#navbox1text:hover, #navbox2text:hover, #navbox3text:hover {
+color: yellow;
+}
