@@ -11,3 +11,5 @@ The continuous loop is at the top of the main page. I created this by grabbing a
 I made the text of the navigation menu yellow when hovered over on all 3 pages. I did this by wrapping the text of the navigation menu in individual divs and changing the div hover property to color:yellow.
 
 My background image is on the main page. I created this by finding a hurdle sillhouette image and gave the section a background color of a light blue hue.
+
+The visual jQuery interaction is located on the Famous Hurdlers page. It is a button that changes the 'hurdling' picture of President Barack Obama to a picture of him in a suit in the Oval Office. I accomplished this through a function that changes the attributes of the image upon the click of the 'Obama-ize' button.
