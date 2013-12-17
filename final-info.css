@@ -41,36 +41,27 @@ text-align: center; margin-left: 38%; margin-right: 2%; background-color:
 }
 
 @media only screen and (min-width: 1000px) {
-#navbox1 {border-style: solid; border-color: black; width: 31%; float:left; 
+ #navbox1 {border-style: solid; border-color: black; width: 31%; float:left; 
 
-margin-left: 2%; text-align: center; background-color: #FF0000; 
+ margin-left: 2%; text-align: center; background-color: #FF0000; 
 
-overflow:hidden;}
+ overflow:hidden;}
 
-#navbox2 {border-style: solid; border-color: black; width: 31%; float:left; 
+ #navbox2 {border-style: solid; border-color: black; width: 31%; float:left; 
 
-text-align: center; margin-left: 0%; background-color: #FF3300; 
+ text-align: center; margin-left: 0%; background-color: #FF3300; 
 
-overflow:hidden;}
+ overflow:hidden;}
 
-#navbox3 {border-style: solid; border-color: black; width: 31%; float:left; 
+ #navbox3 {border-style: solid; border-color: black; width: 31%; float:left; text-align: center; margin-right: 2%; margin-left: 0%; background-color: 
 
-text-align: center; margin-right: 2%; margin-left: 0%; background-color: 
+ #FF6600; overflow:hidden;}
 
-#FF6600; overflow:hidden;}
+  .first {width:31%; border-right: 1px solid black; margin-left: 2%; display:block; float:left; }
 
-.first {width:31%; border-right: 1px solid black; margin-left: 
+  .second {width:31%;  display:block; float:left;}
 
-2%; display:block; float:left; }
-
-.second {width:31%; border-right: 1px solid black; display:block; 
-
-float:left;}
-
-.third {width:31%; margin-right:2%; display:block; float:left;}
-
-footer {border-top: 1px solid gray;}
-
+  .third {width:31%; margin-right:2%; display:block; border-left: 1px solid black;float:left;}
 }
 
 h1 {text-align: center}
@@ -81,9 +72,12 @@ h3 {margin-left:2%}
 
 p {margin-left:2%}
 
-footer {border-top: 1px solid gray;}
+footer {clear: both; border-top: 1px solid gray;}
+
+body {background-color: #CCCCCC}
 
 
 #navbox1text:hover, #navbox2text:hover, #navbox3text:hover {
 color: yellow;
 }
+
