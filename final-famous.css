@@ -79,3 +79,12 @@ ul {margin-left: 10%}
 
 img {float:right; max-width:100%;}
 
+body {background-color: #CCCCCC;}
+
+footer {border-top: 1px solid gray;}
+
+#navbox1text:hover, #navbox2text:hover, #navbox3text:hover {
+color: yellow;
+}
+
+
