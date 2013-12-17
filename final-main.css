@@ -40,7 +40,7 @@
  background-color: #FF6600; overflow:hidden;}
 
 @-webkit-keyframes move {
- 50% {-webkit-transform: translate(800px, 0px);}
+ 50% {-webkit-transform: translate(800px, 0px);}}
 
 .hurdle {-webkit-animation:move 4s linear infinite alternate;}
 }
