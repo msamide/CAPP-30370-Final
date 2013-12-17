@@ -40,22 +40,24 @@
  background-color: #FF6600; overflow:hidden;}
 
 @-webkit-keyframes move {
-50% {-webkit-transform: translate(800px, 0px);}}
+ 50% {-webkit-transform: translate(800px, 0px);}
 
 .hurdle {-webkit-animation:move 4s linear infinite alternate;}
 }
 
 h1 {text-align: center;}
 
-.head{background-color: #FFCC33;}
-
-main {background-image:url("http://www.i2clipart.com/cliparts/8/c/7/6/clipart-hurdling_silhouette-8c76.png");
-background-color: #66CCCC;
+body {background-image:url("http://www.i2clipart.com/cliparts/8/c/7/6/clipart-hurdling_silhouette-8c76.png");
+background-color: #CCCCCC;
 }
 
 #navbox1text:hover, #navbox2text:hover, #navbox3text:hover {
 color: yellow;
 }
+
+.smallindent {margin-left: 2%}
+
+.indent {margin-left: 5%}
 
 img {max-width: 100%}
 
